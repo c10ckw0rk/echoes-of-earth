@@ -1,7 +1,7 @@
 {
-  "name": "phaser3-typescript-electron",
+  "name": "echoes-of-earth",
   "version": "1.0.0",
-  "description": "Phaser3 Typescript Electron Example",
+  "description": "A top down survival game where you must survive on a hostile planet.",
   "homepage": "/",
   "main": "main.ts",
   "scripts": {
@@ -14,24 +14,26 @@
     "exe:portable": "electron-packager . phaser-electron-app-name --platform win32 --arch x64 --overwrite --out exe"
   },
   "dependencies": {
-    "phaser": "^3.60.0"
+    "mrpas": "^2.0.0",
+    "phaser": "^3.70.0",
+    "prettier": "^3.2.2"
   },
   "devDependencies": {
-    "concurrently": "^8.0.1",
+    "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
-    "electron": "^23.2.0",
-    "electron-packager": "^17.1.1",
+    "electron": "^28.1.3",
+    "electron-packager": "^17.1.2",
     "electron-reload": "^2.0.0-alpha.1",
     "process": "^0.11.10",
-    "typescript": "^5.0.4",
-    "vite": "^4.3.5",
-    "vite-tsconfig-paths": "^4.2.0"
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vite-tsconfig-paths": "^4.2.3"
   },
   "keywords": [],
   "author": {
-    "name": "natonato",
+    "name": "c10ckw0rk",
     "email": "",
-    "url": "https://github.com/natonato"
+    "url": "https://github.com/c10ckw0rk"
   },
   "license": "MIT",
   "compilerOptions": {
